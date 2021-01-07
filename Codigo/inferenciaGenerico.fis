@@ -1,0 +1,39 @@
+[System]
+Name='inferenciaGenerico'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='x'
+Range=[20 30]
+NumMFs=2
+MF1='A1':'gaussmf',[4 20]
+MF2='A2':'gaussmf',[3.5 30]
+
+[Input2]
+Name='y'
+Range=[-10 50]
+NumMFs=2
+MF1='B1':'gaussmf',[23 -10]
+MF2='B2':'gaussmf',[9 50]
+
+[Output1]
+Name='z'
+Range=[0 5]
+NumMFs=2
+MF1='C1':'gaussmf',[1.5 0]
+MF2='C2':'gaussmf',[2 5]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 1 (1) : 1
+2 1, 2 (1) : 1
+2 2, 2 (1) : 1

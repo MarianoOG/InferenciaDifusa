@@ -1,0 +1,11 @@
+Practica 1.
+
+1.1 Realizar en el editor de lógica difusa de Matlab el ejercicio hipotético visto en clase. Analizar las gráficas de reglas  superficie obtenidas.
+
+1.2 Realizar el codigo de programa en matlab para el ejercicio hipotético donde el usuaio ingrese el valor certero para cada variable de entrada y el sistema de inferencia gener el valor defuzzyficado de salida.
+
+1.3 Realice el código de programa en matlab para el ejercicio hipotético que obtenga la superficie de control.
+
+1.4 Realizar en el editor de lógica difusa de matlab el ejercicio de la veleta y generador visto en clase.
+
+1.5 Realice el código de programa que genere las superficies de control del ejercicio de veleta y generador.
